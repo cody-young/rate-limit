@@ -12,6 +12,8 @@ import redis
 import time
 from itertools import izip
 
+__version__ = "0.1.0"
+
 class RateLimiter(object):
     """
     RateLimiter is used to define one or more rate limit rules.
