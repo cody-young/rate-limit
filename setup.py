@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 import sys
 
 name = 'rate-limit'
-version = __version__
+version = "0.1.0"
 _ver = sys.version_info
 
 setup(
